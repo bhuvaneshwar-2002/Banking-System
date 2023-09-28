@@ -5,7 +5,7 @@ public class BankAccount {
     private static int startAccountId = 100;
     private int accountId;
     private String accHolder;
-    private double balance;
+    private double balance = 0.0;
 
     public BankAccount(String accHolder,double initialDeposit){
         this.accountId = startAccountId++;
